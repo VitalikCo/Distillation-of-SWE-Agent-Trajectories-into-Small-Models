@@ -21,7 +21,7 @@ This repository is intended to collect:
 
 ## Datasets
 
-The main dataset used in the experiments is:
+The dataset used in the experiments is:
 
 * **NVIDIA Nemotron-SWE-v1**
 
@@ -36,10 +36,6 @@ Long trajectories were split into smaller chunks to make them more suitable for 
 ### 2. Filtering trajectories
 
 We also tried two filtering variants to reduce noisy or low-value parts of the data and keep more informative samples for fine-tuning.
-
-### 3. Masked supervised fine-tuning
-
-The training setup follows an instruction-style supervised fine-tuning scheme where only selected parts of the trajectory are used as prediction targets, while the rest is masked.
 
 ## Models and training
 
@@ -58,11 +54,14 @@ Prepared for:
 
 ```text
 .
-├── notebooks/              # Analysis, preprocessing, and training notebooks
-├── figures/                # Generated plots and diagrams
-├── paper/                  # LaTeX source for the workshop paper
-├── README.md               # Project overview
-└── ...
+├── README.md
+├── Анализ_датасета_Nemotron-SWE-v1_чистовик.ipynb
+├── Скачивание_датасетов_траекторий SWE-агентов.ipynb
+├── train_test_Nemotron-SWE-v1.ipynb
+├── Distillation_Nemotron-SWE-v1_чистовик.ipynb
+├── чанки_Distillation_Nemotron-SWE-v1_чистовик.ipynb
+├── фильтр_v1_Distillation_Nemotron-SWE-v1_чистовик.ipynb
+└── фильтр_v2_Distillation_Nemotron-SWE-v1_чистовик.ipynb
 ```
 
 ## Reproducibility
@@ -95,3 +94,7 @@ The paper summarizes:
 
 * **Maria Khodorchenko**, Associate Professor, ITMO University
 * **Vitaly Poberezhsky**, student, ITMO University
+
+## License
+
+MIT
