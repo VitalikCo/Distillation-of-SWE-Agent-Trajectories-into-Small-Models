@@ -27,7 +27,7 @@ The dataset used in the experiments is:
 
 ## Methods
 
-We explored several ways to adapt long SWE-agent trajectories for small models:
+We explored two preprocessing strategies for adapting long SWE-agent trajectories for small models:
 
 ### 1. Chunking trajectories
 
@@ -61,7 +61,8 @@ Prepared for:
 ├── Distillation_Nemotron-SWE-v1_чистовик.ipynb
 ├── чанки_Distillation_Nemotron-SWE-v1_чистовик.ipynb
 ├── фильтр_v1_Distillation_Nemotron-SWE-v1_чистовик.ipynb
-└── фильтр_v2_Distillation_Nemotron-SWE-v1_чистовик.ipynb
+├── фильтр_v2_Distillation_Nemotron-SWE-v1_чистовик.ipynb
+└── Distillation_of_SWE_Agent_Trajectories_into_Small_Models.pdf
 ```
 
 ## Reproducibility
