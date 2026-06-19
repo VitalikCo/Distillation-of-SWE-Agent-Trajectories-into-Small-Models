@@ -1,1 +1,1 @@
-# Distillation-of-SWE-Agent-Trajectories-into-Small-Models
+# Distillation of SWE Agent Trajectories into Small Models
